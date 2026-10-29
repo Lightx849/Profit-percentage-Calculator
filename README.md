@@ -21,7 +21,7 @@ def prof_per():
         if cost_price <= 0:
             print(" insufficent cost price occured")
             continue
-
+    profit = sell_price - cost_price
     percentage = (profit / cost_price) * 100
     return percentage
 
